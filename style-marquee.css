@@ -1,0 +1,59 @@
+.news a:link {
+	color: black;
+    text-decoration: none;
+}
+
+.news a:visited {
+	color: black;
+    text-decoration: none;
+}
+
+.news a:hover {
+	color: black;
+    text-decoration: underline overline;
+}
+
+.news a:active {
+	color: black;
+    text-decoration: underline;
+}
+
+.news {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+  border-radius: 7px;
+  background-color: lightgray;
+  padding: 8px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.news header {
+  float: left;
+  color: red;
+  font: bold 16px 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+.news .wrapper {
+  overflow: hidden;
+}
+.news ul {
+  left: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+.news li {
+  min-width: 100%;
+  display: inline;
+}
+
+.news li:before {
+  content: "\7C";
+}
+
+.news li:after {
+  content: "\7C";
+}
